@@ -100,7 +100,7 @@ export default function App() {
               href={link.href}
               size="lg"
               style={{ display: 'block', textAlign: 'center' }}
-              className="font-semibold text-primary-focus py-4 hover:text-primary"
+              className="font-semibold text-primary py-4 hover:text-blue-900"
             >
               {link.label}
             </Link>

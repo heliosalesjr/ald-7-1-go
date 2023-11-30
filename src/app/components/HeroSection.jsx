@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 const HeroSection = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-primary-focus mx-auto pt-20 h-[40rem] flex items-center justify-center text-white">
+    <div className="bg-gradient-to-b from-primary to-sky-300 mx-auto pt-20 h-[40rem] flex items-center justify-center text-white">
       <div className='max-w-screen-xl'>
         <div className="text-center flex items-center justify-between px-12">
           <div>
@@ -19,7 +19,7 @@ const HeroSection = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src="images/covers2.png" alt="Capa" className="px-8 w-[2000px]" />
+            <img src="images/7o.png" alt="Capa" className="px-8 w-[2000px]" />
           </motion.div>
         </div>
       </div>
