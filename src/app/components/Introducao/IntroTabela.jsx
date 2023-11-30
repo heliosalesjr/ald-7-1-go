@@ -5,11 +5,11 @@ import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKey
 const rows = [
   {
     key: "1",
-    name: "1. O que o dinheiro compra? E o que o dinheiro não compra? 2. Uma visita ao mercado.",
-    role: "1. Qual é meu sonho? 2. O que você precisa comprar no mercado? 3. As tentações do mercado... me segura para eu não gastar.",
+    name: "O que é consumo?",
+    role: "O que é consumismo? Como não gastar mais do que deveríamos!",
     status: "I - Diagnóstico. II - Conteúdos e habilidades. III - Planejamento.",
-    location: "Sistema de numeração decimal. Operações com números naturais / divisão euclidiana. Propriedades da igualdade. Problemas sobre medidas envolvendo grandezas.",
-    department: "Ferramentas Google. Mapa mental. Infográfico.",
+    location: "Múltiplos e divisores de um número natural / Números racionais na representação fracionária e decimal / Fração e seus significados: como parte de inteiros, resultado da divisão, razão e operador / Problemas envolvendo medições / Cálculo de volume de blocos retangulares, utilizando unidades de medida convencionais mais usuais.",
+    department: "Ferramentas Google / Infográfico.",
   },
 ];
 

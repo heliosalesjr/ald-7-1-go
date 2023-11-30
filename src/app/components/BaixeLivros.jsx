@@ -23,7 +23,7 @@ function BaixeLivros() {
             */}
             <div className="flex flex-col sm:flex-row space-y-4 lg:flex lg:flex-row md:space-y-0">
               <a
-                href="https://www.flipsnack.com/7E8DB9BBDC9/caderno_educador_6-_ano_/full-view.html"
+                href="https://www.flipsnack.com/7E8DB9BBDC9/ed-financeira_educador_7/full-view.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-customizado btn-outline mx-4"
@@ -31,7 +31,7 @@ function BaixeLivros() {
                 Caderno do Educador
               </a>
               <a
-                href="https://www.flipsnack.com/7E8DB9BBDC9/livro_ed_financeira_estudante_6-_ano/full-view.html"
+                href="https://www.flipsnack.com/7E8DB9BBDC9/aprendendo-a-lidar-com-dinheiro-s-timo-ano-estudante/full-view.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-customizado btn-outline mx-4"
