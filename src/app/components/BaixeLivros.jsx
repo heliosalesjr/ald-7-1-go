@@ -5,7 +5,7 @@ function BaixeLivros() {
   return (
     <>
       <motion.div 
-      className="bg-gradient-to-tl from-primary to-primary-focus"
+      className="bg-gradient-to-br from-primary to-primary-focus"
       initial={{ opacity: 0, scale: 0.5 }}
       whileInView={{ opacity: 1, scale: 1 }}
         >

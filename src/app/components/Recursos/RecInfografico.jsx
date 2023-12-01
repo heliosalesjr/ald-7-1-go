@@ -4,21 +4,22 @@ import {Accordion, AccordionItem} from "@nextui-org/react";
 function RecInfografico() {
   return (
     <>
-        <section className="mx-auto">
+        <section className="mx-auto ">
             <div className='flex justify-center items-center'>
                 <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div className=" text-gray-700 sm:text-lg dark:text-gray-400">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-700 dark:text-white">
-                    Infográfico
+                    Estratégia Didática: Infográfico
                     </h2>
                     <p className="mb-4">
-                    Infográfico é um tipo de linguagem que associa elementos verbais (frases curtas) a elementos não verbais (imagens, sons, gráficos etc.). Sua principal função é informar o leitor de maneira simples, rápida e objetiva. Na elaboração de um infográfico, é importante prestar atenção à consonância entre os elementos verbais e não verbais, ou seja, texto, imagens e demais elementos devem se referir sempre ao mesmo assunto. Abaixo você confere um exemplo de infográfico retirado  
-                    <a href="https://bloglogistica.com.br/mercado/infografico-dia-mundial-da-agua/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline hover:text-blue-700"> deste link</a>.
+                    Infográfico é um tipo de linguagem que associa elementos verbais (frases curtas) a elementos não verbais (imagens, sons, gráficos etc.). O infográfico tem como principal função informar o leitor de maneira simples, rápida e objetiva. É uma forma de comunicação bastante atrativa, atual e utilizada pelas mídias digitais de jornais, redes sociais etc.
                     </p>
-
+                    <p>
+                    Na elaboração de um infográfico, é importante atentar à consonância entre os elementos verbais e não verbais, ou seja, texto, imagens e demais elementos devem se referir sempre ao mesmo assunto. Veja um exemplo:
+                    </p>
                 </div>
                 <div className="lg:col-span-1 lg:justify-self-center lg:items-center mt-8">
-                    <img className="w-full rounded-lg max-w-[300px]" src="images/info1.png" alt="office content 1" />
+                    <img className="w-full rounded-lg" src="images/infografico.jpg" alt="office content 1" />
                 </div>
             </div>
 
@@ -27,22 +28,40 @@ function RecInfografico() {
             
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-6">
             <Accordion variant='bordered'>
-                <AccordionItem key="1" aria-label="Accordion 1" title="Sugestão de atividade">
+                <AccordionItem key="1" aria-label="Accordion 1" title="Exemplo de atividade">
                 
                         <p className="mb-4">
-                        A parte 2 do Livro do Estudante aborda diretamente um tema econômico ao falar sobre hábitos de consumo cotidianos (ir ao mercado, por exemplo). Nossa sugestão é que os estudantes construam um infográfico com dicas para economizar nas compras.
+                        Recomenda-se que, em dupla ou no máximo em trio, os estudantes criem um infográfico que explique a diferença entre consumo e consumismo.
                         </p>
                         <p className="mb-4">
-                        Após a construção desse infográfico, apresente-o para sua turma. Caso julgue necessário, revisite os capítulos 2 e 3 do livro.
+Caso julgue necessário, revisite os capítulos 1 e 2 do Livro do Estudante.
                         </p>
                         <p className="mb-4">
-                        O objetivo desta atividade é estimular nos estudantes a criatividade, a capacidade de articular elementos verbais e não verbais, o trabalho em grupo, a argumentação etc. Desse modo, foi solicitado que os estudantes criassem em duplas um infográfico com dicas para economizar nas compras de supermercado.
+                        Se sua turma não tiver acesso à internet, pode fazer o infográfico com lápis, papel e recorte e colagem de imagens, ou ainda com desenhos.
                         </p>
                         <p className="mb-4">
-                        Atenção: Antes que os estudantes iniciem a atividade, certifique- se de que eles entenderam a estrutura de um infográfico. Chame a atenção para o fato de que eles devem sistematizar as dicas com frases curtas, imagens etc.
+Após a construção dos infográficos pelos estudantes, os vários grupos devem apresentá-los para toda a turma.
                         </p>
                         <p className="mb-4">
-                        Os infográficos podem ser criados em sites específicos. Se você não tiver acesso à internet, pode fazer o infográfico usando lápis e papel.
+                        O objetivo desta atividade é estimular nos estudantes a capacidade de criação, de articular elementos verbais e não verbais, o trabalho em grupo e a argumentação etc. 
+                        </p>
+                        <p className="mb-4">
+Antes que os estudantes iniciem a atividade, certifique-se de que eles entenderam a estrutura de um infográfico. Chame a atenção para o fato de que eles devem sistematizar a diferença entre consumo e consumismo.
+                        </p>
+                        <p className="mb-4">
+                        O exemplo {" "}
+                            <a
+                                href="https://drive.google.com/file/d/1f0E0Wja7BxIZOuqVtGAhl09ekpihpH2u/view"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-500 hover:underline"
+                            >
+                                desta imagem
+                            </a>{" "}
+                             é um modelo de um infográfico que foi construído na plataforma Canva, que poderá servir de inspiração para você, educador. Trata-se somente de um modelo, e é possível explorar mais formatos. Peça aos estudantes que, além da definição, insiram no infográfico exemplos de práticas de consumo e consumismo.
+                        </p>
+                        <p className="mb-4">
+                        No momento de socialização da atividade, faça perguntas aos estudantes sobre a construção do infográfico. Sistematize essa atividade a partir das falas deles.
                         </p>
                 </AccordionItem>
                 

@@ -13,12 +13,21 @@ function RecSugestao() {
           <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
             
             <h2 className="mb-6 text-3xl font-bold py-8">
-            Dicas e sugestões de sites para a criação de mapa conceitual e mapa mental
+            Ferramentas
             
             </h2>
             <p className="mb-12 text-neutral-700 dark:text-neutral-300">
-            Aqui disponibilizamos algumas ferramentas digitais para te ajudar, mas lembrando que você pode ensinar os alunos a criar seus mapas mentais à mão. Veja como neste vídeo <a href="https://surprise.ly/v/?IZVf0ugVZqA:IZVf0ugVZqA:86:86:474:474:0:0:0:100" target="_blank" className="text-blue-500 underline hover:text-blue-700">aqui</a>.
-            </p>
+            Você pode encontrar todas essas informações e mais sugestões nas páginas 23 a 25 do 
+              {" "}
+  <a
+                href="https://www.flipsnack.com/7E8DB9BBDC9/caderno-do-educador-s-timo-ano-parte-1/full-view.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Caderno do Educador.
+              </a>{" "}
+                       </p>
 
     
           </div>
@@ -35,9 +44,9 @@ function RecSugestao() {
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-3 font-bold">MindMeister</p>
+                    <p className="mb-3 font-bold">Easelly</p>
                     <p className="text-neutral-700 dark:text-neutral-300">
-                    Facilita a criação de mapas mentais. Possui um editor intuitivo que permite mapear ideias junto com sua equipe, de forma rápida e atrativa. Você pode acessar um tutorial em vídeo <a href="https://youtu.be/GbpDGemgFY4" target="_blank" className="text-blue-500 underline hover:text-blue-700">aqui</a>.
+                    Disponibiliza layouts gratuitos para serem modificados de acordo com a demanda do usuário. Também é possível alterar cor, texto, imagens, adicionar ícones etc. Após finalizar a edição, é possível baixar o arquivo e até mesmo compartilhar nas redes sociais.
                     </p>
                   </div>
                 </div>
@@ -47,7 +56,7 @@ function RecSugestao() {
                 <div className="flex">
                   <div className="shrink-0">
                     <div className="rounded-md p-4 bg-purple-100 text-primary dark:text-primary-400">
-                      <a href="http://canva.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.easel.ly/" target="_blank" rel="noopener noreferrer">
                         <SiCanva className="h-6 w-6 text-gray-600" />
                       </a>
                     </div>
@@ -65,15 +74,15 @@ function RecSugestao() {
                 <div className="flex">
                   <div className="shrink-0">
                     <div className="rounded-md p-4 bg-purple-100 text-primary dark:text-primary-400">
-                      <a href="http://www.creately.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://infogram.com/" target="_blank" rel="noopener noreferrer">
                         <BsPencil className="h-6 w-6 text-gray-600" />
                       </a>
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-3 font-bold">Creately</p>
+                    <p className="mb-3 font-bold">Infogram</p>
                     <p className="text-neutral-700 dark:text-neutral-300">
-                    Software com várias funcionalidades que o ajudam a criar um mapa conceitual de forma simples, inovadora e rápida. Tem uma biblioteca abrangente com vários modelos de mapas e diversas opções de personalização. Você pode acessar a um tutorial em vídeo <a href="https://youtu.be/tEPGujCFSys?t=61" target="_blank" className="text-blue-500 underline hover:text-blue-700">aqui</a>.
+                    Possibilita criar infográficos a partir dos templates disponibilizados. O usuário pode realizar pequenas modificações, ou acrescentar novos elementos ao seu design. É uma ótima opção para fazer criações de forma mais rápida.
                     </p>
                   </div>
                 </div>
@@ -83,15 +92,15 @@ function RecSugestao() {
                 <div className="flex">
                   <div className="shrink-0">
                     <div className="rounded-md p-4 bg-purple-100 text-primary dark:text-primary-400">
-                      <a href="http://www.lucidchart.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://pt.venngage.com/" target="_blank" rel="noopener noreferrer">
                         <AiOutlineAreaChart className="h-6 w-6 text-gray-600" />
                       </a>
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-3 font-bold">Lucidchart</p>
+                    <p className="mb-3 font-bold">Venngage</p>
                     <p className="text-neutral-700 dark:text-neutral-300">
-                    É um espaço de trabalho visual que mescla diagramação, visualização de dados e colaboração para acelerar a compreensão e promover a inovação. Você pode assistir a um tutorial em vídeo <a href="https://youtu.be/ILlPjxaT5u0" target="_blank" className="text-blue-500 underline hover:text-blue-700">aqui</a>.
+                    Com um simples cadastro, é possível criar infográficos e gráficos a partir dos modelos disponibilizados no site. Interessados podem utilizar a versão gratuita ou a paga para imagens mais elaboradas.
                     </p>
                   </div>
                 </div>
