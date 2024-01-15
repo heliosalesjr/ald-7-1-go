@@ -21,10 +21,8 @@ function Matematica() {
         <MatDiferenca />
         <MatSugestao />
         <MatOperacoes />
-        
         <MatSistemaNumeracao />
         <MatSistemaMonetario />
-        
         <MatPropriedades />
         
         <Divider />
