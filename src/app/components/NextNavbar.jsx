@@ -39,7 +39,7 @@ export default function App() {
           <NavbarItem key={index}>
             <Link
               href={link.href}
-              className={`transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold ${
+              className={`transition-all duration-500 ease-in-out hover:text-blue-900 hover:font-semibold ${
                 pathname === link.href ? 'border-b-3 border-primary font-semibold text-blue-900' : ''
               }`}
               color="foreground"
@@ -57,7 +57,7 @@ export default function App() {
               href={link.href}
               size="lg"
               style={{ display: 'block', textAlign: 'center' }}
-              className={`font-semibold text-primary py-4 hover:text-sky-800 ${
+              className={`font-semibold text-primary-focus py-4 hover:text-red-500 ${
                 pathname === link.href ? 'border-b-3 border-primary' : ''
               }`}
             >
