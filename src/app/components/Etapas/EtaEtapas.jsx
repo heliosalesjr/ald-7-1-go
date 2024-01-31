@@ -8,31 +8,31 @@ import { motion } from 'framer-motion'
 
 const cardData = [
   {
-    title: "I - Diagnóstico",
+    title: "1 - Diagnóstico",
     description:
       "Traçar o perfil da turma como um todo, destacando suas qualidades e seus potenciais, e identificando dificuldades e limites que devem ser superados.",
   },
   {
-    title: "II - Conteúdos e Habilidades",
+    title: "2 - Conteúdos e Habilidades",
     description:
       "Descrever os principais conteúdos de matemática e habilidades da BNCC a serem trabalhados.",
   },
   {
-    title: "III - Planejamento",
+    title: "3 - Planejamento",
     description:
       "Planejar o PPDA escolhendo estratégias e ferramentas que incitem a participação dos estudantes.",
   },
   {
-    title: "IV - Atividades",
+    title: "4 - Atividades",
     description: "Executar as atividades planejadas.",
   },
   {
-    title: "V - Avaliação",
+    title: "5 - Avaliação",
     description:
       "Avaliar os resultados, verificando até que ponto os objetivos propostos foram alcançados.",
   },
   {
-    title: "VI - Conclusão",
+    title: "6 - Conclusão",
     description:
       "Planejar a Culminância das conquistas ao fim do programa, comunicando os resultados.",
   },
@@ -41,8 +41,8 @@ const cardData = [
 export default function EtaEtapas() {
   return (
     <>
-    <div className="container mx-auto ">
-      <h1 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">Etapas do desenvolvimento de um projeto</h1>
+    <div className="container mx-auto max-w-7xl pt-8">
+      <h1 className="font-bold text-2xl md:text-4xl sm:text-3xl text-slate-700 p-8 text-center ">Etapas do desenvolvimento de um projeto</h1>
       <p className="text-lg mt-4 py-4">
       Um projeto nada mais é do que um plano onde definimos e organizamos ações a serem executadas visando atingirmos a um objetivo. Para elencar ações a serem desenvolvidas, podemos dividir as etapas de aplicação do projeto. Estas etapas facilitam a visualização do que precisa ser feito, consequentemente auxiliando na definição de ações. Para o desenvolvimento de nosso PPDA, sugerimos a adoção de seis etapas:
       </p>
