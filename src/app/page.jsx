@@ -1,8 +1,8 @@
 'use client'
 import CardList from "./components/CardList"
 import FeatureSection from "./components/FeatureSection"
-import HeroSection from "./components/HeroSection"
 
+import HeroBento from "./components/HeroBento"
 import SectionHalf from "./components/SectionHalf"
 import SectionOne from "./components/SectionOne"
 import FAQDaisy from './components/FAQDaisy'
@@ -17,7 +17,9 @@ export default function Home() {
   return (
     <>
       
-      <HeroSection />
+      
+      <HeroBento />
+      <Divider />
       <SectionOne />
       <Divider />
       <CardList />
